@@ -530,14 +530,23 @@ http://www.templatemo.com/tm-515-eatery
         <div class="container">
             <div class="row">
 
+
+                <!-- FIND US -->
                 <div class="col-md-3 col-sm-8">
                     <div class="footer-info">
                         <div class="section-title">
-                            <h2 class="wow fadeInUp" data-wow-delay="0.2s">Find us</h2>
+                            <h2 class="wow fadeInUp" data-wow-delay="0.2s">Get Directions to Us</h2>
                         </div>
                         <address class="wow fadeInUp" data-wow-delay="0.4s">
                                 2491 S Superior Street,<br> Milwaukee, WI 53207<br>
                             </address>
+
+                        <form action="http://maps.google.com/maps" method="get" target="_blank">
+                            <label for="saddr"> Your location</label>
+                            <input type="text" name="saddr" />
+                            <input type="hidden" name="daddr" value=" 2491 S Superior Street, Milwaukee, WI 53207 (Palomino Bar)" />
+                            <input type="submit" value="Get directions" />
+                        </form>
                     </div>
                 </div>
 
