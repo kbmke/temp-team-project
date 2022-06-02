@@ -87,7 +87,7 @@ a:focus {
 
 ::-webkit-scrollbar-thumb {
     cursor: pointer;
-    background: #000000;
+    background: #ff9615;
 }
 
 .section-title {
@@ -275,7 +275,8 @@ section {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #ce3232;
+    color: #b4f4e5;
+    ;
 }
 
 .custom-navbar .navbar-nav>li>a:hover,
@@ -285,7 +286,7 @@ section {
 
 .custom-navbar .nav li.active>a {
     background-color: transparent;
-    color: #ce3232;
+    color: #b4f4e5;
 }
 
 .custom-navbar .navbar-toggle {
@@ -308,7 +309,7 @@ section {
         background: 0 0;
     }
     .custom-navbar.top-nav-collapse {
-        background: #ffffff;
+        background: #323233;
         -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
         -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
         box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -318,7 +319,7 @@ section {
         color: #454545;
     }
     .top-nav-collapse .nav li a {
-        color: #575757;
+        color: #ff9615;
     }
     .top-nav-collapse .nav .section-btn a {
         color: #ffffff;
